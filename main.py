@@ -56,7 +56,7 @@ def save():
         }
     }
     if website == "" or password == "" or password == "":
-        messagebox.showwarning(title="Error 4.20", message="Some fields are empty")
+        messagebox.showwarning(title="Error", message="Some fields are empty")
     else:
         try:
             with open("data.json", "r") as data_file:
